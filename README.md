@@ -31,7 +31,7 @@ Since GitHub actions cost resources, there are some limitations to the scheduled
 
 See: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
 
-For example, it only works on the main branch, and the schedule is disabled after 60 days of repository inactivity
+For example, it only works on the main branch, and the schedule is disabled after 60 days of repository inactivity.
 
 ## Alternatives to GitHub workflow
-Set up a cron job on a linux server to perform the ping command
+Set up a cron job on a linux server to perform the ping command.
