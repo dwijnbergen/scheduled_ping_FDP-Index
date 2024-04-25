@@ -3,9 +3,11 @@
 ## Set up
 Actions -> New workflow -> Skip this and set up a workflow yourself
 
-Copy paste https://github.com/dwijnbergen/scheduled_ping_FDP-Index/blob/main/.github/workflows/ping.yml
+Change name from main.yml to ping.yml
 
-Replace https://patient-registries.fdps.ejprd.semlab-leiden.nl/ with your FAIR Data Point URL
+Copy the contents of https://github.com/dwijnbergen/scheduled_ping_FDP-Index/blob/main/.github/workflows/ping.yml
+
+Replace the https://patient-registries.fdps.ejprd.semlab-leiden.nl/ URL with your FAIR Data Point URL
 
 Commit changes -> commit changes
 
