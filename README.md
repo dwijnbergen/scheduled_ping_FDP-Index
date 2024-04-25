@@ -1,18 +1,18 @@
 # Scheduled ping to FAIR Data Point Index
 
 ## Set up
-Actions -> New workflow -> Skip this and set up a workflow yourself
+Actions -> New workflow -> click "Skip this and set up a workflow yourself"
 
-Change name from main.yml to ping.yml
+Change the file name from main.yml to ping.yml
 
 Copy the contents of https://github.com/dwijnbergen/scheduled_ping_FDP-Index/blob/main/.github/workflows/ping.yml
 
-Replace the https://patient-registries.fdps.ejprd.semlab-leiden.nl/ URL with your FAIR Data Point URL
+Replace the https://patient-registries.fdps.ejprd.semlab-leiden.nl/ URL with the URL of your FAIR Data Point
 
 Commit changes -> commit changes
 
 ## Use
-The workflow will run automatically once a week.
+The workflow will run automatically once a week, and on changes in the repository.
 
 The workflow can also be started manually:
 
