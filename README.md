@@ -1,4 +1,12 @@
-# Scheduled ping to FAIR Data Point Index
+# Scheduled ping to VP FAIR Data Point Index
+
+This workflow runs the following command in order to ping the VP FAIR Data Point Index:
+
+```
+curl -X POST -H "Content-Type: application/json" -d '{"clientUrl": "URL_HERE"}' https://index.vp.ejprarediseases.org/
+```
+
+Where URL_HERE is replaced by a FAIR Data Point URL.
 
 ## Set up
 Actions -> New workflow -> click "Skip this and set up a workflow yourself"
