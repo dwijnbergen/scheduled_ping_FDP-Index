@@ -35,5 +35,5 @@ For example, it only works on the main branch, and the schedule is disabled afte
 
 ## Alternatives to GitHub workflow
 - Set up a cron job on a linux server to perform the ping command
-- Integrate it with the software that publishes the FAIR Data Point
+- Integrate the command with the software that publishes the FAIR Data Point documents
 - Run the command manually
