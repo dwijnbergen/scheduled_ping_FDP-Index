@@ -24,7 +24,7 @@ The workflow will run automatically once a week, and on changes in the repositor
 
 The workflow can also be started manually:
 
-Actions -> ping every week -> Run workflow -> Run workflow
+Actions -> Ping Fair Data Point Index -> Run workflow -> Run workflow
 
 ## GitHub workflow Limitations
 Since GitHub actions cost resources, there are some limitations to the scheduled workflow.
