@@ -7,4 +7,5 @@ jobs:
   ping-index:
     runs-on: ubuntu-latest
     steps:
-    - run: curl -X POST -H "Content-Type: application/json" -d '{"clientUrl": "https://patient-registries.fdps.ejprd.semlab-leiden.nl/"}' https://index.vp.ejprarediseases.org/
+    - run: |
+        curl -X POST -H "Content-Type: application/json" -d '{"clientUrl": "https://patient-registries.fdps.ejprd.semlab-leiden.nl/"}' https://index.vp.ejprarediseases.org/
