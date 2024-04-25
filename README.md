@@ -12,8 +12,8 @@ Replace the https://patient-registries.fdps.ejprd.semlab-leiden.nl/ URL with you
 Commit changes -> commit changes
 
 ## Use
-Runs automatically.
+The workflow will run automatically once a week.
 
-Manual possiblity:
+The workflow can also be started manually:
 
 Actions -> ping every week -> Run workflow -> Run workflow
