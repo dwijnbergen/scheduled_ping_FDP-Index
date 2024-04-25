@@ -1,7 +1,7 @@
-name: Ping every 5 minutes
+name: Ping every week
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 0 * * 0"
 
 jobs:
   ping-index:
