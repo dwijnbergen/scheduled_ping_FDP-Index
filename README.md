@@ -1,6 +1,6 @@
 # Scheduled ping to VP FAIR Data Point Index
 
-This workflow runs the following command in order to ping the VP FAIR Data Point Index:
+This workflow regularly runs the following command in order to ping the VP FAIR Data Point Index:
 
 ```
 curl -X POST -H "Content-Type: application/json" -d '{"clientUrl": "URL_HERE"}' https://index.vp.ejprarediseases.org/
