@@ -17,3 +17,10 @@ The workflow will run automatically once a week.
 The workflow can also be started manually:
 
 Actions -> ping every week -> Run workflow -> Run workflow
+
+## Limitations
+Since GitHub actions cost resources, there are some limitations to the scheduled workflow.
+
+See: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
+
+For example, it only works on the main branch, and the schedule is disabled after 60 days of repository inactivity
