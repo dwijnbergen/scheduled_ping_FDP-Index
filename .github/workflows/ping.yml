@@ -1,4 +1,4 @@
-name: Ping every week
+name: Ping FAIR Data Point Index
 on:
   schedule:
     - cron: "7 2 * * 0"
