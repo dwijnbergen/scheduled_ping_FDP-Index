@@ -34,4 +34,6 @@ See: https://docs.github.com/en/actions/using-workflows/events-that-trigger-work
 For example, it only works on the main branch, and the schedule is disabled after 60 days of repository inactivity.
 
 ## Alternatives to GitHub workflow
-Set up a cron job on a linux server to perform the ping command.
+- Set up a cron job on a linux server to perform the ping command
+- Integrate it with the software that publishes the FAIR Data Point
+- Run the command manually
